@@ -1,0 +1,518 @@
+.portraitSection img {
+	width: 200px;
+	height: 200px;
+	background: rgb(1, 67, 117);
+	background: linear-gradient(191deg, rgba(1, 67, 117, 1) 15%, rgba(147, 191, 246, 1) 100%);
+}
+
+.presentation {
+	margin-top: 15px;
+	border-top: 1px solid #94A3C4;
+	padding-bottom: 10px;
+	border-right: 1px solid #D8DFEA;
+	border-bottom: 1px solid #94A3C4;
+	background-color: #FFFFFF;
+	width: 200px;
+}
+
+.presentation li {
+	max-width: 173px;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 12px;
+	margin-left: 9px;
+}
+
+.presentation h2 {
+	background: #ECEFF5 none repeat scroll 0 0;
+	border-top: 0 none;
+	display: block;
+	font-size: 11px;
+	margin-bottom: 5px;
+	padding: 5px 8px;
+}
+
+.linksSection {
+	padding: 10px 0 10px 10px;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #E5E5E5;
+	border-left: 4px solid #E5E5E5;
+	/* position: absolute; */
+	right: 0px;
+	top: 78px;
+	font-size: 12px;
+	height: fit-content;
+}
+
+.linksSection img {
+	width: 141px;
+}
+
+.linksSection p {
+	border-top: 1px solid #E5E5E5;
+	padding: 10px 5px 0px 5px;
+}
+
+.linksSection a {
+	text-decoration: none;
+	color: #3B5998;
+}
+
+.mainZone {
+	width: 80%;
+}
+
+.mainZone h1 {
+	font-size: 16px;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	margin-right: 7px;
+}
+
+.flashCards .title {
+	display: flex;
+	align-items: center;
+	margin-bottom: 16px;
+}
+
+.flashCards .title p {
+	font-size: 13px;
+}
+
+.flashCards h2 {
+	background: #fff;
+	color: #000;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 4px 11px;
+	display: inline-block;
+}
+
+.fakePost {
+	display: flex;
+	margin-top: 15px;
+	border-top: 1px solid #D8DFEA;
+}
+
+.fakePost__pictures img {
+	width: 50px;
+	height: 50px;
+	background: rgb(1, 67, 117);
+	background: linear-gradient(191deg, rgba(1, 67, 117, 1) 15%, rgba(147, 191, 246, 1) 100%);
+
+}
+
+.fakePost__pictures {
+	margin-top: 15px;
+}
+
+.fakePost__text {
+	margin-top: 15px;
+	padding-left: 10px;
+}
+
+.fakePost__text--title {
+	color: #3B5998;
+	font-weight: 600;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.fakePost__text--main {
+	max-width: 450px;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+.fakePost__text--litleTitle {
+	font-size: 13px;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.semaine {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 9px;
+	margin-left: 15px;
+}
+
+.semaine ul {
+	margin: 0px;
+	padding: 0px;
+	margin-top: 15px;
+}
+
+
+
+.add-btn {
+	margin-top: 9px;
+	margin: 15px 0px 19px 15px;
+}
+
+.numero {
+	font-size: 8px;
+}
+
+.day_para {
+	max-width: 173px;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 12px;
+	max-width: 100px;
+}
+
+.mois {
+	font-size: 16px;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	margin: 0px 7px 0px 16px;
+	font-weight: 600;
+}
+
+li {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+
+li img {
+	width: 20px;
+	height: 20px;
+	margin-right: 4px;
+}
+
+.modal_answer {
+	transform: translateY(-200px);
+	top: 40%;
+	z-index: 9999;
+	animation-name: descendDuCiel;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	padding: 10px;
+	position: absolute;
+	display: none;
+	border: 1px solid #94A3C4;
+	padding: 10px;
+	background: #ECEFF5;
+}
+
+.modal_answer p {
+	font-size: 15px;
+	margin-bottom: 24px;
+	font-weight: 600;
+}
+
+.modal_name {
+	transform: translateY(-200px);
+	top: 40%;
+	z-index: 9998;
+	animation-name: descendDuCiel;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	border: 1px solid black;
+	background-color: white;
+	padding: 30px;
+	position: absolute;
+	display: none;
+}
+
+@keyframes descendDuCiel {
+	0% {
+		transform: translateY(-200px);
+	}
+
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+
+
+
+
+
+
+/* -----CIMETIERE------ */
+.cimetiere_zone {
+	width: 500px;
+
+	position: relative;
+	margin-top: 50px;
+}
+
+.undoneTasks_logo {
+	width: 100%;
+}
+
+.undoneTasks_zone {
+	padding: 10px;
+	background: #ECEFF5;
+	font-size: 17px;
+	font-weight: 600;
+	border: 1px solid #94A3C4;
+}
+
+.undoneTasks_logo__titre {
+	font-size: 14px;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	background-color: rgba(98, 122, 173);
+	color: white;
+	font-weight: 600;
+	padding: 4px 20px;
+}
+
+.undoneParaDate {
+	font-weight: 500;
+	color: #3B5998;
+}
+
+.undonePara {
+	cursor: pointer;
+}
+
+.undoneDiv {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 7px 10px;
+}
+
+.undoneDiv img {
+	width: 30px;
+	height: 30px;
+	border: 1px solid black;
+	margin-right: 15px;
+	background-color: white;
+}
+
+.undoneImg,
+.undoneParaName,
+.undoneParaDate {
+	cursor: pointer;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	word-break: break-all;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.myName,
+.selectionMatiere {
+	color: black;
+}
+
+.quitModalName {
+	margin: 15px;
+}
+
+.yesNo {
+	display: flex;
+}
+
+.undoneTasks_img {
+	width: 200px;
+}
+
+.iconDelete {
+	margin-left: 10px;
+	cursor: pointer;
+	border: 1px solid black;
+	padding: 4px;
+	border-radius: 5px;
+	background-color: white;
+	color: rgb(249, 95, 95);
+}
+
+.iconReset {
+	margin-left: 10px;
+	cursor: pointer;
+	border: 1px solid black;
+	padding: 4px;
+	border-radius: 5px;
+	background-color: white;
+	color: rgb(37, 189, 87);
+}
+
+.undoneTasks_logo {
+	position: relative;
+	padding-left: 15px;
+}
+
+.undoneTasks_logo .undoneTasks_img {
+	position: absolute;
+	top: -80px;
+	right: -59px;
+}
+
+@media screen and (max-width: 600px) {
+	body .btn {
+		font-size: 12px;
+		margin: 10px 0px;
+	}
+
+	body .modal_name {
+		width: 300px;
+	}
+
+	body .modal_answer {
+		width: 300px;
+	}
+}
+
+/* NEWS  */
+.modal_name {
+	border: 1px solid #94A3C4;
+	;
+	padding: 10px;
+	background: #ECEFF5;
+}
+
+.modal_name h2 {
+	font-size: 15px;
+}
+
+.modal_name .red:hover,
+.modalAnswer__no:hover,
+.modalAnswer__input__no:hover {
+	background-color: rgb(190, 30, 58);
+	color: white;
+	padding: 3px 6px 4px;
+}
+
+.modal_name .green:hover,
+.modalAnswer__yes:hover,
+.modalAnswer__input__yes:hover {
+	background-color: rgb(40, 167, 69);
+	color: white;
+	padding: 3px 6px 4px;
+}
+
+.modal_answer_input {
+	transform: translateY(-200px);
+	top: 40%;
+	z-index: 9999;
+	animation-name: descendDuCiel;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	position: absolute;
+	display: none;
+	border: 1px solid #94A3C4;
+	padding: 10px;
+	background: #ECEFF5;
+}
+
+.modal_answer_input h2 {
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+.btnCool {
+	margin-right: 15px;
+}
+
+.semaine_zone {
+	animation-name: rightToLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+.flashCards {
+	animation-name: rightToLeft;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+.cardSpan {
+	margin-left: 5px;
+	font-weight: 12px;
+}
+
+@keyframes rightToLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(200px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+@media screen and (max-width: 670px) {
+	body .undoneTasks_img {
+		width: 100px;
+	}
+
+	body .cimetiere_zone {
+		width: 280px;
+	}
+
+	body .undoneTasks_logo .undoneTasks_img {
+		position: absolute;
+		top: -28px;
+		right: -16px;
+	}
+
+	body .flashCards {
+		margin-top: 50px;
+		width: 280px;
+	}
+}
+
+.semaine__titre {
+	font-size: 13px;
+	font-weight: bold;
+	padding: 4px 11px;
+	display: block;
+	margin-right: 4px;
+	background-color: rgba(216, 223, 234);
+	color: rgba(59, 89, 152);
+}
+
+.semaine__titre:hover {
+	background-color: rgba(98, 122, 173);
+	color: white;
+
+}
+
+.currentDay {
+	background: #fff;
+	color: #000;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 4px 11px;
+	display: inline-block;
+}
+
+@media screen and (max-width:1010px) {
+	body .portraitSection {
+		display: none;
+	}
+
+	body .linksSection {
+		display: none;
+	}
+
+	html body .flashCards {
+		width: 100%;
+		padding-left:0px;
+		margin-top:0px;
+	}
+}

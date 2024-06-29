@@ -1,0 +1,17 @@
+/* SEMAINE  */
+
+.semaine_zone {
+
+}
+
+/* INTRO  */
+.flashCards {
+	padding-left: 52px;
+}
+
+
+
+.flashCard--description {
+	font-family: gobold;
+	color: rgb(190, 30, 58);
+}

@@ -1,0 +1,25 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif; 
+	background: #fff url("../pictures/others/bodybg.gif") repeat-x scroll left 13px;
+}
+#root {
+	display: flex;
+	/* justify-content: center; */
+	justify-content: space-evenly;
+	position:relative;
+	/* flex-direction: column; */
+	margin-top: 15px;
+	/* width: 1260px; */
+	margin: 0px;
+	padding: 14px 0px;
+}
