@@ -180,7 +180,9 @@ export class Home {
                         this.transformFromSwitch(i, 180, true);
                         break;
                     case 6:
-                        this.lsContent.splice(i, 1);
+                        // this.lsContent.splice(i, 1);
+                        this.lsContent[i].step = 5;
+                        this.transformFromSwitch(i, 180, true);
                         break;
                     default:
                         console.log('error');

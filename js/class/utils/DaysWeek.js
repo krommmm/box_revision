@@ -113,8 +113,6 @@ export class DaysWeek extends IDaysWeek {
                     );
                     let cardSpan = document.createElement('span');
                     cardSpan.className = "cardSpan";
-                    // let cardSpanNode = document.createTextNode(`step: ${this.myCards[i][j].step}`);
-                    // cardSpan.appendChild(cardSpanNode);
                     para.appendChild(paraNode);
                     para.appendChild(cardSpan);
                     li.appendChild(img);

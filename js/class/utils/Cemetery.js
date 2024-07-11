@@ -85,7 +85,6 @@ export class Cemetery extends ICemetery {
     deleteCardFromLs() {
         localStorage.setItem("cards", JSON.stringify(this.cloneStorage));
         this.modalDeleteCard.close();
-        //window.location.reload();
         window.location.reload();
     }
 
