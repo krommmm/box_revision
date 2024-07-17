@@ -104,14 +104,14 @@ export class Home {
     }
 
     resetDate() {
-        console.log(this.lsContent[0].step);
+
         this.lsContent = JSON.parse(localStorage.getItem('cards'));
         for (let i = 0; i < this.lsContent.length; i++) {
             if (
                 this.lsContent[i].name === this.name &&
                 this.lsContent[i].step > 0
             ) {
-                this.lsContent[i].step = 1;
+                // this.lsContent[i].step = 1;
                 switch (this.lsContent[i].step) {
                     case 1:
                         this.transformFromSwitch(i, 1, false);
@@ -153,16 +153,26 @@ export class Home {
         if (bool) {
             this.lsContent[index].step++;
         } else {
-            this.lsContent[index] === 1;
+            if(this.lsContent[index].step>1){
+          
+                let newDate = new Date(date[2], date[1], date[0]);
+                let newDateMs = newDate.getTime() + 1000 * 3600 * 24 * 1;
+                let updatedDate = new Date(newDateMs);
+                let newDay = updatedDate.getDate();
+                let newMonth = updatedDate.getMonth();
+                let newYear = updatedDate.getFullYear();
+                let newDateDMY = [newDay, newMonth, newYear];
+                this.lsContent[index].date = newDateDMY;
+                this.lsContent[index].step--;
+            }
+      
         }
     }
 
     updateDate() {
-        console.log(this.lsContent[0].step);
         this.lsContent = JSON.parse(localStorage.getItem('cards'));
         for (let i = 0; i < this.lsContent.length; i++) {
             if (this.lsContent[i].name === this.name) {
-                console.log(this.lsContent[0].step);
                 switch (this.lsContent[i].step) {
                     case 1:
                         this.transformFromSwitch(i, 1, true);
