@@ -24,7 +24,7 @@ export class Home {
 
     start() {
         this.lsContent = JSON.parse(localStorage.getItem('cards'));
-        
+
         if (this.lsContent !== null && this.lsContent.length > 0) {
             this.sRenderer.displayWeek();
         } else {
@@ -153,8 +153,8 @@ export class Home {
         if (bool) {
             this.lsContent[index].step++;
         } else {
-            if(this.lsContent[index].step>1){
-          
+            if (this.lsContent[index].step > 1) {
+
                 let newDate = new Date(date[2], date[1], date[0]);
                 let newDateMs = newDate.getTime() + 1000 * 3600 * 24 * 1;
                 let updatedDate = new Date(newDateMs);
@@ -165,7 +165,7 @@ export class Home {
                 this.lsContent[index].date = newDateDMY;
                 this.lsContent[index].step--;
             }
-      
+
         }
     }
 
