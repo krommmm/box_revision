@@ -24,6 +24,6 @@
 .cardContainer{
     margin:10px;
     display:flex;
-    justify-content:center;
+    justify-content:flex-start;
     align-items:center;
 }
