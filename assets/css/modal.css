@@ -1,0 +1,29 @@
+.Generalmodal {
+    display: none;
+}
+
+.generalModal__container {
+    border: 1px solid #94A3C4;
+    padding: 10px;
+    background: #ECEFF5;
+    width: 100%;
+}
+
+.generalModal__container__header{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.generalModal__container__header--quit{
+    cursor:pointer;
+}
+.cardContainer img{
+    width: 50px;
+    height: 50px;
+}
+.cardContainer{
+    margin:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

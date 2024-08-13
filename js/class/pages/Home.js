@@ -2,11 +2,12 @@ import { SDaysWeek } from "../services/SDaysWeek.js";
 import { DaysWeek } from "../utils/DaysWeek.js";
 
 export class Home {
-    constructor(sRenderer, modalAddCard, cards, modalNextOrReset) {
+    constructor(sRenderer, modalAddCard, cards, modalNextOrReset, modalSeeAll) {
         this.sRenderer = sRenderer;
         this.modalAddCard = modalAddCard;
         this.cards = cards;
         this.modalNextOrReset = modalNextOrReset;
+        this.modalSeeAll = modalSeeAll;
         this.name = "";
         this.eventsBound = false;  // Nouveau drapeau
         this.init();
@@ -59,7 +60,33 @@ export class Home {
             this.implementName(e);
             this.modalNextOrReset.close();
             this.updateDate();
+        } else if (e.target.classList.contains("btnSeeAll")) {
+            this.modalSeeAll.open();
+            this.seeAllCards();
+        } else if (e.target.classList.contains("generalModal__container__header--quit")) {
+            this.modalSeeAll.close();
         }
+    }
+
+    seeAllCards(){
+        const cards = JSON.parse(localStorage.getItem("cards"));
+        const cardsContainer = document.querySelector(".generalModal__container__cards");
+        cardsContainer.innerHTML = "";
+        cards.forEach((card)=>{
+            const container = document.createElement("div");
+            container.className="cardContainer";
+
+            const img = document.createElement("img");
+            img.src=`/assets/pictures/icons/${card.matiere}.png`;
+
+            const para = document.createElement("p");
+            para.className="???";
+            para.textContent = `${card.name} - step: ${card.step} - date: ${card.date}`;
+
+            container.appendChild(img);
+            container.appendChild(para);
+            cardsContainer.appendChild(container);
+        })
     }
 
     handleScroll() {

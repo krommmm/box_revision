@@ -14,6 +14,7 @@ const modal = new Modal();
 const modalAddCard = new SModal(modal, ".modal_name");
 const modalDeleteCard = new SModal(modal, ".modal_answer_input");
 const modalNextOrReset = new SModal(modal, ".modal_answer");
+const modalSeeAll = new SModal(modal,".Generalmodal");
 
 const renderer = new Renderer();
 const sRenderer = new SRenderer(renderer);
@@ -22,7 +23,7 @@ const sRenderer = new SRenderer(renderer);
 const cards = new Cards();
 const cardService = new SCards(cards);
 
-const home = new Home(sRenderer, modalAddCard, cards, modalNextOrReset);
+const home = new Home(sRenderer, modalAddCard, cards, modalNextOrReset,modalSeeAll);
 const cemetery = new Cemetery(sRenderer, modalDeleteCard);
 const sCemetery = new SCemetery(cemetery);
 

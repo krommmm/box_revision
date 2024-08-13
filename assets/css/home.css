@@ -296,6 +296,14 @@ li img {
 	margin-right: 15px;
 	background-color: white;
 }
+.header_container{
+	display:flex;
+}
+.btnSeeAll{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
 
 .undoneImg,
 .undoneParaName,

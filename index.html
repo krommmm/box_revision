@@ -1,123 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" type="text/css" href="./assets/css/index.css" />
-		<title>Accueil</title>
-		<script
-			src="https://kit.fontawesome.com/65211b898e.js"
-			crossorigin="anonymous"
-		></script>
-	</head>
-	<body>
-		<header>
-			<div class="header_container">
-				<div class="panneau_container">
-					<p>
-						<span class="rouge_clair">10</span>
-						<b>minutes</b>&nbsp;&nbsp;
-						<span class="rouge_clair">1</span>
-						<b>jour</b>&nbsp;&nbsp;
-						<span class="rouge_clair">3</span>
-						<b>jours</b>&nbsp;&nbsp;
-						<span class="rouge_clair">1</span>
-						<b>semaine</b>&nbsp;&nbsp;
-						<span class="rouge_clair">1</span>
-						<b>mois</b>&nbsp;&nbsp;
-						<span class="rouge_clair">6</span> <b>mois</b>
-					</p>
-				</div>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/index.css" />
+	<title>Accueil</title>
+	<script src="https://kit.fontawesome.com/65211b898e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header>
+		<div class="header_container">
+			<div class="panneau_container">
+				<p>
+					<span class="rouge_clair">10</span>
+					<b>minutes</b>&nbsp;&nbsp;
+					<span class="rouge_clair">1</span>
+					<b>jour</b>&nbsp;&nbsp;
+					<span class="rouge_clair">3</span>
+					<b>jours</b>&nbsp;&nbsp;
+					<span class="rouge_clair">1</span>
+					<b>semaine</b>&nbsp;&nbsp;
+					<span class="rouge_clair">1</span>
+					<b>mois</b>&nbsp;&nbsp;
+					<span class="rouge_clair">6</span> <b>mois</b>
+				</p>
 			</div>
-		</header>
-		<div id="root">
-			<div class="portraitSection">
-				<img src="assets/pictures/others/leiner.png" alt=""/>
-				<div class="presentationText">
+			<div class="btn btnSeeAll">See all</div>
+		</div>
+	</header>
+	<div id="root">
+		<div class="portraitSection">
+			<img src="assets/pictures/others/leiner.png" alt="" />
+			<div class="presentationText">
 				<div class="presentation">
 					<h2>Présentation des flash cards</h2>
 					<li>Ecris tes propres Flashcards</li>
 					<li>Saisis une matière et une leçon</li>
 					<li>Et révise-là à chaque fois que tu la vois dans la semaine</li>
 					<li>Clique dessus et elle passera au niveau suivant</li>
-					
+
 				</div>
 				<div class="presentation">
 					<h2>Le cimetière des cartes</h2>
 					<li>Si une leçon n'est pas révisée à temps, elle passe dans le cimetière des cartes</li>
 					<li>Tu peux ensuite la supprimer ou la remettre en selle</li>
 				</div>
-				</div>
 			</div>
-			<div class="mainZone">	
-				<section class="semaine_zone">
-					<div class="flashCards">
+		</div>
+		<div class="mainZone">
+			<section class="semaine_zone">
+				<div class="flashCards">
 					<div class="title">
 						<h1>Flash cards</h1>
 						<p>Bienvenue sur l'application de flash Cards</p>
 					</div>
 					<h2>Commencer</h2>
 					<div class="fakePost">
-						<div class="fakePost__pictures"><img src="assets/pictures/others/230px-Ebbinghaus2.jpg" alt=""/></div>
+						<div class="fakePost__pictures"><img src="assets/pictures/others/230px-Ebbinghaus2.jpg"
+								alt="" /></div>
 						<div class="fakePost__text">
 							<p class="fakePost__text--title">Bienvenue sur l'application de flash Cards</p>
-							<p class="fakePost__text--main">Dispositif d'apprentissage fondé sur la technique de la répétition espacée.</p>
-							<p class="fakePost__text--main">Cette technique d'apprentissage a été mise au point dans les années 1970 par Sebastian Leitner (en) (chroniqueur scientifique allemand, 1919-1989) à la suite des travaux de Hermann Ebbinghaus1. </p>
+							<p class="fakePost__text--main">Dispositif d'apprentissage fondé sur la technique de la
+								répétition espacée.</p>
+							<p class="fakePost__text--main">Cette technique d'apprentissage a été mise au point dans les
+								années 1970 par Sebastian Leitner (en) (chroniqueur scientifique allemand, 1919-1989) à
+								la suite des travaux de Hermann Ebbinghaus1. </p>
 							<p class="fakePost__text--litleTitle">Ajouter une carte pour débuter ...</p>
 							<button class="btn add-btn">Add card</button>
 						</div>
-					
+
 					</div>
-					</div>
-				</section>
-				<section class="cimetary_zone"></section>
-			</div>
-		
-			<div class="linksSection">
-				<img src="./assets/pictures/others/portfolio.PNG" alt=""/>
-				<p>Retrouvez mon travail sur</p>
-				<a href="https://portfoliotb.netlify.app/">https://portfoliotb.netlify.app/</a>
-			</div>
+				</div>
+			</section>
+			<section class="cimetary_zone"></section>
 		</div>
-		<div class="modal_answer ">
-			<p>Passer cette carte au niveau suivant ?</p>
-			<div class="yesNo">
-				<button class="btn modalAnswer__yes green btnCool">Yes</button>
-				<button class="btn modalAnswer__no red">No</button>
-			</div>
-		</div>	<div class="modal_answer_input ">
-			<h2>Voulez vous supprimer cette carte ?</h2>
-			<div class="yesNo">
-				<button class="btn modalAnswer__input__yes green btnCool">Yes</button>
-				<button class="btn modalAnswer__input__no red">No</button>
-			</div>
+
+		<div class="linksSection">
+			<img src="./assets/pictures/others/portfolio.PNG" alt="" />
+			<p>Retrouvez mon travail sur</p>
+			<a href="https://portfoliotb.netlify.app/">https://portfoliotb.netlify.app/</a>
 		</div>
-		<div class="modal_name ">
-			<h2>Create a card</h2>
-			<button class="btn red quitModalName">quit</button>
-			<div class="formNameMatiere">
-				<input
-					type="text"
-					class="name btn"
-					placeholder="Ex: asynchrone"
-				/>
-				<select class="matiere btn">
-					<option value="english_icon">English</option>
-					<option value="js_icon">JS</option>
-					<option value="php_icon">PHP</option>
-					<option value="nodejs_icon">NodeJs</option>
-					<option value="react_icon">React</option>
-					<option value="devian_icon">Devian</option>
-					<option value="github_icon">Github</option>
-					<option value="java_icon">Java</option>
-					<option value="jest_icon">Jest</option>
-					<option value="python_icon">Python</option>
-					<option value="ts_icon">Ts</option>
-				</select>
-				<button class="btn-send btn green">Envoyer</button>
-			</div>
+	</div>
+	<div class="modal_answer ">
+		<p>Passer cette carte au niveau suivant ?</p>
+		<div class="yesNo">
+			<button class="btn modalAnswer__yes green btnCool">Yes</button>
+			<button class="btn modalAnswer__no red">No</button>
 		</div>
-		<footer></footer>
-		<script type="module" src="./js/index.js"></script>
-	</body>
+	</div>
+	<div class="modal_answer_input ">
+		<h2>Voulez vous supprimer cette carte ?</h2>
+		<div class="yesNo">
+			<button class="btn modalAnswer__input__yes green btnCool">Yes</button>
+			<button class="btn modalAnswer__input__no red">No</button>
+		</div>
+	</div>
+	<div class="modal_name ">
+		<h2>Create a card</h2>
+		<button class="btn red quitModalName">quit</button>
+		<div class="formNameMatiere">
+			<input type="text" class="name btn" placeholder="Ex: asynchrone" />
+			<select class="matiere btn">
+				<option value="english_icon">English</option>
+				<option value="js_icon">JS</option>
+				<option value="php_icon">PHP</option>
+				<option value="nodejs_icon">NodeJs</option>
+				<option value="react_icon">React</option>
+				<option value="devian_icon">Devian</option>
+				<option value="github_icon">Github</option>
+				<option value="java_icon">Java</option>
+				<option value="jest_icon">Jest</option>
+				<option value="python_icon">Python</option>
+				<option value="ts_icon">Ts</option>
+			</select>
+			<button class="btn-send btn green">Envoyer</button>
+		</div>
+	</div>
+	<footer></footer>
+	<div class="Generalmodal">
+		<div class="generalModal__container">
+			<div class="generalModal__container__header">
+				<div class="generalModal__container__header--quit btn">Quit</div>
+			</div>
+			<div class="generalModal__container__cards"></div>
+			
+		</div>
+	</div>
+	<script type="module" src="./js/index.js"></script>
+</body>
+
 </html>
