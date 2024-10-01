@@ -11,6 +11,7 @@ body {
 	height: 100vh;
 	font-family: "lucida grande",tahoma,verdana,arial,sans-serif; 
 	background: #fff url("../pictures/others/bodybg.gif") repeat-x scroll left 13px;
+	background: #070720;
 }
 #root {
 	display: flex;

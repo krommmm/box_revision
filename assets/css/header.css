@@ -1,6 +1,5 @@
 header {
 	width: 100%;
-	background-color: rgba(59, 89, 152);
 	display: flex;
 	justify-content: center;
 	padding-top: 15px;
@@ -29,7 +28,6 @@ header {
 	font-family: gobold;
 	color: white;
 	padding: 10px;
-	background-color: rgba(98, 122, 173);
 	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
 	font-size: 12px;
 	align-items: center;
