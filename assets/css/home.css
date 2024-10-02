@@ -103,6 +103,7 @@
 	font-size: 16px;
 	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
 	margin-right: 7px;
+	color:white;
 }
 
 .flashCards .title {
@@ -116,9 +117,9 @@
 }
 
 .flashCards h2 {
-	background: #fff;
-	color: #000;
-	font-size: 13px;
+	
+	color:white;
+	font-size: 23px;
 	font-weight: bold;
 	padding: 4px 11px;
 	display: inline-block;
@@ -168,6 +169,7 @@
 	font-size: 13px;
 	font-weight: 600;
 	margin-top: 20px;
+	color:white;
 }
 
 
