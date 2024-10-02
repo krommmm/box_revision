@@ -41,6 +41,18 @@
 	font-size: 13px;
 	color: white;
 	margin-bottom: 9px;
+	position: relative;
+	padding-left: 20px;
+}
+
+.presentation h2::before {
+	content: '';
+	position: absolute;
+	left: 7px;
+	top: 8px;
+	height: 15px;
+	width: 3px;
+	background-color: rgb(50, 115, 250);
 }
 
 .linksSection {
@@ -140,6 +152,10 @@
 	font-weight: 600;
 	font-size: 14px;
 	margin-bottom: 15px;
+	font-weight: 600;
+	font-size: 17px;
+	margin-bottom: 15px;
+	color: white;
 }
 
 .fakePost__text--main {
@@ -204,13 +220,14 @@
 	margin: 0px 7px 0px 16px;
 	font-weight: 600;
 	color: white;
+	padding: 5px;
 }
 
 .mois::before {
 	content: '';
 	position: absolute;
-	left: 5px;
-	top: 4px;
+	left: 7px;
+	top: 8px;
 	height: 15px;
 	width: 3px;
 	background-color: rgb(50, 115, 250);
@@ -241,9 +258,10 @@ li img {
 	padding: 10px;
 	position: absolute;
 	display: none;
-	border: 1px solid #94A3C4;
-	padding: 10px;
-	background: #ECEFF5;
+	padding: 48px;
+	background-color: #11112a;
+	color: white;
+	border: 1px solid aliceblue;
 }
 
 .modal_answer p {
@@ -265,6 +283,20 @@ li img {
 	padding: 30px;
 	position: absolute;
 	display: none;
+	padding: 48px;
+	background-color: #11112a;
+	color: white;
+	border: 1px solid aliceblue;
+}
+
+.formNameMatiere input {
+	background-color: white;
+	color: black;
+}
+
+.formNameMatiere select {
+	background-color: white;
+	color: black;
 }
 
 @keyframes descendDuCiel {
@@ -424,31 +456,17 @@ li img {
 
 /* NEWS  */
 .modal_name {
-	border: 1px solid #94A3C4;
-	;
-	padding: 10px;
-	background: #ECEFF5;
+	padding: 48px;
+	background-color: #11112a;
 }
 
 .modal_name h2 {
 	font-size: 15px;
 }
 
-.modal_name .red:hover,
-.modalAnswer__no:hover,
-.modalAnswer__input__no:hover {
-	background-color: rgb(190, 30, 58);
-	color: white;
-	padding: 3px 6px 4px;
-}
 
-.modal_name .green:hover,
-.modalAnswer__yes:hover,
-.modalAnswer__input__yes:hover {
-	background-color: rgb(40, 167, 69);
-	color: white;
-	padding: 3px 6px 4px;
-}
+
+
 
 .modal_answer_input {
 	transform: translateY(-200px);
@@ -488,6 +506,13 @@ li img {
 	animation-duration: 0.8s;
 	animation-timing-function: ease-in-out;
 	animation-fill-mode: forwards;
+	color: white;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	color: #bbbedb;
+	margin-left: 5px;
 }
 
 .cardSpan {

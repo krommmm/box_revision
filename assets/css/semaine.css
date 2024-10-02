@@ -1,12 +1,10 @@
 /* SEMAINE  */
 
-.semaine_zone {
-
-}
+.semaine_zone {}
 
 /* INTRO  */
 .flashCards {
-	padding-left: 52px;
+	padding: 37px 37px 37px 52px;
 }
 
 
