@@ -598,5 +598,9 @@ li img {
 		width: 100%;
 		padding-left: 0px;
 		margin-top: 0px;
+		padding: 37px 37px 37px 52px;
 	}
+	body .mainZone {
+		width: 100%;
+	  }
 }
