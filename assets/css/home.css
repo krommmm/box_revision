@@ -69,6 +69,8 @@
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+	width: 194px;
+	height: 194px;
 }
 
 .linksSection button {
@@ -103,7 +105,7 @@
 	font-size: 16px;
 	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
 	margin-right: 7px;
-	color:white;
+	color: white;
 }
 
 .flashCards .title {
@@ -117,8 +119,8 @@
 }
 
 .flashCards h2 {
-	
-	color:white;
+
+	color: white;
 	font-size: 23px;
 	font-weight: bold;
 	padding: 4px 11px;
@@ -169,7 +171,7 @@
 	font-size: 13px;
 	font-weight: 600;
 	margin-top: 20px;
-	color:white;
+	color: white;
 }
 
 
@@ -600,7 +602,8 @@ li img {
 		margin-top: 0px;
 		padding: 37px 37px 37px 52px;
 	}
+
 	body .mainZone {
 		width: 100%;
-	  }
+	}
 }
