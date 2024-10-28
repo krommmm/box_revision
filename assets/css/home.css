@@ -556,6 +556,10 @@ li img {
 		width: 280px;
 	}
 
+	body header{
+		display:none;
+	}
+
 }
 
 .semaine__titre {
