@@ -555,10 +555,7 @@ li img {
 		margin-top: 50px;
 		width: 280px;
 	}
-	html body {
-		width: 100%;
-		overflow-x: hidden;
-	}
+
 }
 
 .semaine__titre {
