@@ -7,7 +7,7 @@ body {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-
+	width: 100vw;
 	height: 100vh;
 	font-family: "lucida grande",tahoma,verdana,arial,sans-serif; 
 	background: #fff url("../pictures/others/bodybg.gif") repeat-x scroll left 13px;
